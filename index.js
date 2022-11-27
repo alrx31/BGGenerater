@@ -8,4 +8,18 @@ function BgColor(){
         wrapper.style.background = res;
         result.innerHTML  = res;         
 }
+let temp = document.querySelector('#temp')
+function copy(e) {
+      temp.value = result.textContent;   
+      if (temp.select) {
+        temp.select();
+        try {
+          document.execCommand('copy');
+        } catch (err) {
+          alert('please press Ctrl/Cmd+C to copy manually');   
+        }
+    
+      }
+      
+      }
 BgColor();
