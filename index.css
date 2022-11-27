@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    overflow:hidden;
+
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size:20px;
+    font-weight: bold;
+}
+h1{
+    -webkit-text-stroke: 1px white;
+}
+#wrapper input {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+
